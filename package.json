@@ -1,0 +1,32 @@
+{
+  "name": "aurora",
+  "displayName": "Aurora",
+  "description": "Balanced and colorful theme, based on aurora.nvim.",
+  "version": "0.1.0",
+  "publisher": "oahlen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oahlen/aurora.vscode"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Aurora Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aurora-dark.json"
+      },
+      {
+        "label": "Aurora Light",
+        "uiTheme": "vs",
+        "path": "./themes/aurora-light.json"
+      }
+    ]
+  }
+}

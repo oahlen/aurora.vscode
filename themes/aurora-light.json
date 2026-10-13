@@ -1,0 +1,154 @@
+{
+  "colors": {
+    "activityBar.background": "#f9f9fb",
+    "activityBar.border": "#f0f1f5",
+    "activityBar.foreground": "#394056",
+    "badge.background": "#376fbe",
+    "breadcrumb.background": "#f9f9fb",
+    "breadcrumb.foreground": "#394056",
+    "diffEditor.insertedTextBackground": "#d4ddcc",
+    "diffEditor.removedTextBackground": "#ead1d7",
+    "dropdown.background": "#f0f1f5",
+    "editor.background": "#f9f9fb",
+    "editor.foreground": "#394056",
+    "editor.lineHighlightBackground": "#f0f1f5",
+    "editor.selectionBackground": "#e7e9ef",
+    "editor.selectionHighlightBackground": "#a34400",
+    "editorCursor.foreground": "#394056",
+    "editorGroup.border": "#f0f1f5",
+    "editorGroupHeader.tabsBackground": "#f9f9fb",
+    "editorGroupHeader.tabsBorder": "#f0f1f5",
+    "focusBorder": "#376fbe",
+    "input.background": "#f0f1f5",
+    "list.activeSelectionBackground": "#e7e9ef",
+    "list.hoverBackground": "#f0f1f5",
+    "menu.background": "#f9f9fb",
+    "menu.foreground": "#394056",
+    "menu.selectionBackground": "#e7e9ef",
+    "menubar.selectionBackground": "#e7e9ef",
+    "panel.background": "#f9f9fb",
+    "panel.border": "#f0f1f5",
+    "panelTitle.activeForeground": "#394056",
+    "quickInput.background": "#f9f9fb",
+    "quickInput.foreground": "#394056",
+    "sash.hoverBorder": "#376fbe",
+    "scrollbarSlider.background": "#f0f1f5",
+    "sideBar.background": "#f9f9fb",
+    "sideBar.border": "#f0f1f5",
+    "sideBar.foreground": "#394056",
+    "sideBarSectionHeader.background": "#f0f1f5",
+    "sideBarSectionHeader.border": "#f0f1f5",
+    "sideBarSectionHeader.foreground": "#394056",
+    "sideBySideEditor.horizontalBorder": "#f0f1f5",
+    "sideBySideEditor.verticalBorder": "#f0f1f5",
+    "statusBar.background": "#e7e9ef",
+    "statusBar.border": "#f0f1f5",
+    "statusBar.debuggingBackground": "#376fbe",
+    "statusBar.foreground": "#2d3243",
+    "tab.activeBackground": "#f0f1f5",
+    "tab.border": "#f0f1f5",
+    "tab.inactiveBackground": "#f9f9fb",
+    "terminal.ansiBlack": "#e7e9ef",
+    "terminal.ansiBlue": "#376fbe",
+    "terminal.ansiBrightBlack": "#68718d",
+    "terminal.ansiBrightBlue": "#376fbe",
+    "terminal.ansiBrightCyan": "#137386",
+    "terminal.ansiBrightGreen": "#407010",
+    "terminal.ansiBrightMagenta": "#884fb0",
+    "terminal.ansiBrightRed": "#b23449",
+    "terminal.ansiBrightWhite": "#2d3243",
+    "terminal.ansiBrightYellow": "#996600",
+    "terminal.ansiCyan": "#137386",
+    "terminal.ansiGreen": "#407010",
+    "terminal.ansiMagenta": "#884fb0",
+    "terminal.ansiRed": "#b23449",
+    "terminal.ansiWhite": "#394056",
+    "terminal.ansiYellow": "#996600",
+    "terminal.background": "#f9f9fb",
+    "terminal.foreground": "#394056",
+    "titleBar.activeBackground": "#f9f9fb",
+    "titleBar.activeForeground": "#394056",
+    "titleBar.border": "#f0f1f5",
+    "titleBar.inactiveBackground": "#f9f9fb",
+    "titleBar.inactiveForeground": "#394056"
+  },
+  "name": "Aurora Light",
+  "semanticHighlighting": true,
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#68718d"
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#407010"
+      }
+    },
+    {
+      "scope": [
+        "keyword",
+        "keyword.control",
+        "storage"
+      ],
+      "settings": {
+        "foreground": "#884fb0"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function",
+        "support.function"
+      ],
+      "settings": {
+        "foreground": "#376fbe"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric",
+        "constant.language"
+      ],
+      "settings": {
+        "foreground": "#a34400"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type",
+        "support.type",
+        "entity.name.class"
+      ],
+      "settings": {
+        "foreground": "#137386"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.property",
+        "variable.other.object.property",
+        "support.type.property-name",
+        "meta.object-literal.key"
+      ],
+      "settings": {
+        "foreground": "#394056"
+      }
+    },
+    {
+      "scope": "support.type.property-name.json",
+      "settings": {
+        "foreground": "#376fbe"
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#394056"
+      }
+    }
+  ],
+  "type": "light"
+}

@@ -1,0 +1,8 @@
+npins/**
+nix/**
+default.nix
+generate.sh
+result
+.gitignore
+.vscode/**
+.github/**

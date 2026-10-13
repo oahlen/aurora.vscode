@@ -1,0 +1,18 @@
+{
+  "pins": {
+    "aurora.nvim": {
+      "type": "Git",
+      "repository": {
+        "type": "GitHub",
+        "owner": "oahlen",
+        "repo": "aurora.nvim"
+      },
+      "branch": "main",
+      "submodules": false,
+      "revision": "563100df1b303105b205877b310130352d536006",
+      "url": "https://github.com/oahlen/aurora.nvim/archive/563100df1b303105b205877b310130352d536006.tar.gz",
+      "hash": "sha256-n2gqfyMnpu52Q2MMhG5l1OuAnkdaE3VAs2a0pb9BxgA="
+    }
+  },
+  "version": 7
+}
