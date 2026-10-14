@@ -145,5 +145,273 @@ with palette;
       scope = "variable";
       settings.foreground = fg1;
     }
+
+    # Delimiter
+    {
+      scope = [
+        "punctuation"
+        "punctuation.separator"
+        "punctuation.terminator"
+        "punctuation.accessor"
+        "punctuation.section"
+        "punctuation.definition"
+        "meta.brace"
+      ];
+      settings.foreground = fg0;
+    }
+    {
+      scope = [
+        "punctuation.definition.string"
+        "punctuation.definition.char"
+      ];
+      settings.foreground = green;
+    }
+    {
+      scope = "punctuation.definition.comment";
+      settings.foreground = grey;
+    }
+    {
+      scope = [
+        "punctuation.definition.tag"
+        "punctuation.definition.tag.begin"
+        "punctuation.definition.tag.end"
+      ];
+      settings.foreground = blue;
+    }
+    {
+      scope = [
+        "punctuation.definition.template-expression"
+        "punctuation.section.embedded"
+        "punctuation.definition.interpolation"
+        "punctuation.special"
+      ];
+      settings.foreground = yellow;
+    }
+    {
+      scope = [
+        "punctuation.definition.variable"
+        "punctuation.definition.parameters"
+      ];
+      settings.foreground = fg1;
+    }
+    {
+      scope = [
+        "punctuation.definition.heading.markdown"
+        "punctuation.definition.list.begin.markdown"
+        "punctuation.definition.quote.begin.markdown"
+        "punctuation.definition.bold.markdown"
+        "punctuation.definition.italic.markdown"
+        "punctuation.definition.raw.markdown"
+        "punctuation.definition.markdown"
+        "punctuation.definition.link.markdown"
+        "punctuation.definition.metadata.markdown"
+      ];
+      settings.foreground = grey;
+    }
+
+    # Operator
+    {
+      scope = "keyword.operator";
+      settings.foreground = fg1;
+    }
+    {
+      scope = [
+        "keyword.operator.new"
+        "keyword.operator.expression"
+        "keyword.operator.word"
+        "keyword.operator.logical.python"
+        "keyword.operator.sizeof"
+        "keyword.operator.typeof"
+        "keyword.operator.instanceof"
+      ];
+      settings.foreground = purple;
+    }
+
+    # SpecialChar / Special
+    {
+      scope = [
+        "constant.character.escape"
+        "constant.other.placeholder"
+        "string.regexp"
+        "entity.name.label"
+      ];
+      settings.foreground = yellow;
+    }
+    {
+      scope = "constant.character";
+      settings.foreground = green;
+    }
+
+    # Constant
+    {
+      scope = [
+        "constant"
+        "constant.other"
+        "variable.other.constant"
+        "variable.other.enummember"
+      ];
+      settings.foreground = orange;
+    }
+
+    # Statement (builtins)
+    {
+      scope = [
+        "variable.language"
+        "support.type.builtin"
+        "storage.type.primitive"
+        "storage.type.built-in"
+        "support.constant.builtin"
+      ];
+      settings.foreground = purple;
+    }
+
+    # Module / Namespace
+    {
+      scope = [
+        "entity.name.namespace"
+        "entity.name.module"
+        "entity.name.type.module"
+        "entity.name.type.namespace"
+      ];
+      settings.foreground = cyan;
+    }
+
+    # PreProc / Attribute
+    {
+      scope = [
+        "meta.preprocessor"
+        "keyword.control.directive"
+        "meta.decorator"
+        "entity.name.function.decorator"
+        "punctuation.decorator"
+        "meta.attribute"
+      ];
+      settings.foreground = cyan;
+    }
+
+    # Parameters
+    {
+      scope = [
+        "variable.parameter"
+        "variable.other.readwrite"
+      ];
+      settings.foreground = fg1;
+    }
+
+    # Tags
+    {
+      scope = "entity.name.tag";
+      settings.foreground = blue;
+    }
+    {
+      scope = "constant.other.option";
+      settings.foreground = fg1;
+    }
+    {
+      scope = "string.unquoted.path";
+      settings.foreground = cyan;
+    }
+    {
+      scope = "entity.name.tag.yaml";
+      settings.foreground = fg1;
+    }
+    {
+      scope = "entity.other.attribute-name";
+      settings.foreground = fg1;
+    }
+
+    # Error
+    {
+      scope = [
+        "invalid"
+        "invalid.illegal"
+      ];
+      settings.foreground = red;
+    }
+
+    # Markup
+    {
+      scope = [
+        "markup.heading"
+        "entity.name.section"
+      ];
+      settings.foreground = red;
+    }
+    {
+      scope = [ "markup.heading.1" "heading.1.markdown" "heading.1.markdown entity.name.section" ];
+      settings.foreground = red;
+    }
+    {
+      scope = [ "markup.heading.2" "heading.2.markdown" "heading.2.markdown entity.name.section" ];
+      settings.foreground = yellow;
+    }
+    {
+      scope = [ "markup.heading.3" "heading.3.markdown" "heading.3.markdown entity.name.section" ];
+      settings.foreground = green;
+    }
+    {
+      scope = [ "markup.heading.4" "heading.4.markdown" "heading.4.markdown entity.name.section" ];
+      settings.foreground = cyan;
+    }
+    {
+      scope = [ "markup.heading.5" "heading.5.markdown" "heading.5.markdown entity.name.section" ];
+      settings.foreground = blue;
+    }
+    {
+      scope = [ "markup.heading.6" "heading.6.markdown" "heading.6.markdown entity.name.section" ];
+      settings.foreground = purple;
+    }
+    {
+      scope = "markup.bold";
+      settings.fontStyle = "bold";
+    }
+    {
+      scope = "markup.italic";
+      settings.fontStyle = "italic";
+    }
+    {
+      scope = [
+        "markup.underline.link"
+        "markup.underline.link.image"
+      ];
+      settings.foreground = cyan;
+      settings.fontStyle = "underline";
+    }
+    {
+      scope = [
+        "string.other.link"
+        "meta.link.inline.markdown string.other.link.title"
+      ];
+      settings.foreground = blue;
+      settings.fontStyle = "underline";
+    }
+    {
+      scope = "markup.list";
+      settings.foreground = green;
+    }
+    {
+      scope = "markup.quote";
+      settings.foreground = grey;
+    }
+    {
+      scope = [
+        "markup.inline.raw"
+        "markup.fenced_code"
+        "markup.raw"
+      ];
+      settings.foreground = fg1;
+    }
+    {
+      scope = "markup.inserted";
+      settings.foreground = green;
+    }
+    {
+      scope = "markup.deleted";
+      settings.foreground = red;
+    }
+    {
+      scope = "markup.changed";
+      settings.foreground = blue;
+    }
   ];
 }
