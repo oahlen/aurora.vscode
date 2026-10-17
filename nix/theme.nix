@@ -8,6 +8,8 @@ with palette;
     "editorCursor.foreground" = fg1;
     "editor.selectionBackground" = bg2;
     "editor.selectionHighlightBackground" = orange;
+    "editorLineNumber.foreground" = bg4;
+    "editorLineNumber.activeForeground" = orange;
 
     "activityBar.background" = bg0;
     "activityBar.foreground" = fg1;

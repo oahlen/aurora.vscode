@@ -18,6 +18,8 @@
     "editorGroup.border": "#f0f1f5",
     "editorGroupHeader.tabsBackground": "#f9f9fb",
     "editorGroupHeader.tabsBorder": "#f0f1f5",
+    "editorLineNumber.activeForeground": "#a34400",
+    "editorLineNumber.foreground": "#a9b0c6",
     "focusBorder": "#376fbe",
     "input.background": "#f0f1f5",
     "list.activeSelectionBackground": "#e7e9ef",
