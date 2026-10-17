@@ -2,13 +2,19 @@
   "name": "aurora-vscode",
   "displayName": "Aurora VSCode",
   "description": "Balanced and colorful theme for VSCode.",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "publisher": "oscar-ahlen",
   "license": "MIT",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#1c1f26",
+    "theme": "dark"
+  },
   "files": [
     "themes",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "icon.png"
   ],
   "repository": {
     "type": "git",

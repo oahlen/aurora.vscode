@@ -15,3 +15,6 @@ help:
 
 # Run all build tasks
 @all: generate package
+
+icon:
+    nix-shell -p librsvg --run "rsvg-convert -w 256 -h 256 images/icon.svg -o icon.png"
