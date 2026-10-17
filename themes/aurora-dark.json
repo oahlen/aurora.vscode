@@ -4,6 +4,7 @@
     "activityBar.border": "#252832",
     "activityBar.foreground": "#c6cbdd",
     "badge.background": "#89b6f5",
+    "badge.foreground": "#1c1f26",
     "breadcrumb.background": "#1c1f26",
     "breadcrumb.foreground": "#c6cbdd",
     "diffEditor.insertedTextBackground": "#374236",

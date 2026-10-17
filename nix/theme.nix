@@ -32,6 +32,7 @@ with palette;
 
     "focusBorder" = blue;
     "badge.background" = blue;
+    "badge.foreground" = bg0;
 
     "titleBar.border" = bg1;
     "activityBar.border" = bg1;
